@@ -5,6 +5,10 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+var URLactual = window.location.href;
+if(URLactual.split('/')[3]==="index.html"){
+  alert("bienvenido a mi CV");
+}
 (function() {
   "use strict";
 
