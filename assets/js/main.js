@@ -6,7 +6,7 @@
 * License: https://bootstrapmade.com/license/
 */
 var URLactual = window.location.href;
-if(URLactual.split('/')[3]==="index.html"){
+if(URLactual.split('/')[3]==="index.html" || URLactual.split('/')[3]===""){
   alert("bienvenido a mi CV");
 }
 (function() {
